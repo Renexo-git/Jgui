@@ -1,7 +1,7 @@
 /*
  * Jgui JavaScript Library
  *
- * Copyright Sambrax
+ * Copyright Renexo
  * Released under the MIT license
  *
  * Date: 2020-12-01

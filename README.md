@@ -41,9 +41,9 @@ _debian@debian:~/Jgui-master/demo/server$_ **python3 -m http.server 8000**
 
 ### CLIENT
 
-debian@debian:~$ **cd Jgui/demo/client**
+_debian@debian:~$_ **cd Jgui-master/demo/client**
 
-debian@debian:~/Jgui/demo/client$ **gjs index.js**
+_debian@debian:~/Jgui-master/demo/client$_ **gjs Piano.js**
 
 ---
 

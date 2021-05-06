@@ -1,18 +1,24 @@
 imports.searchPath.unshift("../../");
-imports.jgui;
+imports.Jgui;
 
 class Piano {
 
-    _init() {
-        $.url = "http://localhost:8000";
-        $.include("/style.min.css");
-        $.request("/", function (response) {
-            $.builder(response, "window");
+    main() {
+        Jgui.url = "http://localhost:8000";
+        Jgui.include("/style.min.css"); // http://localhost:8000/style.min.css
+        Jgui.request("/", function (response) { // XML - http://localhost:8000/
+            /*
+              XML structure object ID
+              ---------------------------------------
+              File: piano.glade
+              <object class="GtkWindow" id="window">
+            */
+            Jgui.builder(response, "window"); // id="window"
         });
     }
 
     onDeleteWindow() {
-        $.quit();
+        Jgui.quit();
     }
 
     playSound(button) {
@@ -38,11 +44,11 @@ class Piano {
         source.link(sink);
         pipeline.set_state(Gst.State.PLAYING);
 
-        $.mainloop.timeout_add(500, function () {
+        Jgui.mainloop.timeout_add(500, function () {
             pipeline.set_state(Gst.State.NULL);
             return false;
         });
     }
 }
 
-$.define(Piano);
+Jgui.define(Piano);

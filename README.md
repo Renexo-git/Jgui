@@ -1,20 +1,19 @@
 # Jgui
 
-Requirements:
+## **INSTALL**
 
-- GJS
+Requirement: **GJS**
 
-- PHP
+##### _LINUX_
 
-INSTALL:
+**debian@debian:~$ su**
 
-debian@debian:~$ **sudo apt install gjs**
+**root@debian:~# apt install gjs**
 
-debian@debian:~$ **sudo apt install php7.3-cli**
+Download - [Jgui-master.zip](https://github.com/Renexo-git/Jgui/archive/refs/heads/master.zip)
 
 ---
-
-Run the demo application through the Linux terminal.
+### Demo application
 
 ---
 

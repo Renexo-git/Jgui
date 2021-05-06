@@ -4,7 +4,7 @@ window {
 
 button {
   color: #333;
-  background: #C9C29A;
+  background: #F0F0F0;
   font-family: Sans;
   font-size: 16px;
   border: 0px;
@@ -12,9 +12,9 @@ button {
 }
 
 button:hover {
-  background: #FFCC00;
+  background: #888A85;
 }
 
 button:active {
-  background: #D3CEB1;
+  background: #FFCC00;
 }

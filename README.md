@@ -4,11 +4,11 @@
 
 Requirement: **GJS**
 
-#### _LINUX_
+### _LINUX_
 
-**debian@debian:~$ su**
+_debian@debian:~$_ **su**
 
-**root@debian:~# apt install gjs**
+_root@debian:~#_ **apt install gjs**
 
 Download - [Jgui-master.zip](https://github.com/Renexo-git/Jgui/archive/refs/heads/master.zip)
 
